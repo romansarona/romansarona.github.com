@@ -49,15 +49,43 @@ main {
     width: 200px;
 }
 .content {
-    flex: 1;
-    padding: 15px;
+    flex: 7;
+    padding: 100px;
 }
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px gold ridge;
     padding: 8px;
 }
 h2, h3 {
-    margin: 0px;
+    margin: 50px;
+}
+
+
+
+   /* portfolio styles */
+   .content h1 {
+    color: rgb(214, 21, 21)31, 60, 60);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 03;
+}
+
+#portfolio li {
+    background: rgb(138, 10, 10);
+    padding: 10px;
+    border-radius: 80px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: rgb(9, 228, 217);
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #db0aca;
 }
