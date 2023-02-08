@@ -17,9 +17,10 @@ $(function () {
     }
     //create walls
     createPlatform(-50, -50, canvas.width + 100, 50); //top
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
+    createPlatform(-60, canvas.height - 10, canvas.width + 100, 200); //right
     createPlatform(-50, -50, 50, canvas.height + 500); //bottom
     createPlatform(canvas.width, -50, 50, canvas.height + 100);
+   
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
@@ -29,7 +30,11 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
+    createPlatform(680, 400, 87, 20);
+    createPlatform(179, 487, 100, 60); 
+    createPlatform(907, 230, 200, 50);
+    createPlatform(570, 550, 200, 70); 
+    createPlatform(370, 100, 200, 70); 
     
     
     
@@ -42,7 +47,21 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
     
-    
+    createCollectable("amongus", 500, 450,);
+    createCollectable("amongus", 250, 400,); 
+    createCollectable("amongus", 150, 470,); 
+    createCollectable("amongus", 550, 243,); 
+    createCollectable("amongus", 430, 189,); 
+    createCollectable("amongus", 170, 567,); 
+    createCollectable("amongus", 550, 368,); 
+    createCollectable("amongus", 780, 257,); 
+    createCollectable("amongus", 456, 785,); 
+    createCollectable("amongus", 973, 457,); 
+    createCollectable("amongus", 386, 325,); 
+    createCollectable("amongus", 510, 300,); 
+    createCollectable("amongus", 850, 300,); 
+    createCollectable("amongus", 786, 300,); 
+
     
     
     // TODO 3
@@ -51,6 +70,9 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
 
+    createCannon("left", 500, 1111); 
+    createCannon("top", 500, 1111); 
+    createCannon("right", 500, 1111); 
 
 
 
